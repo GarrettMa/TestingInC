@@ -3,23 +3,17 @@
 int main()
 {
 	int i=0;
+	int j=6;
 	{
-		int j=30;
+		i=1;
+		int j=7;
+			
 		{
-
-			i=20;
-			{
-				{
-					int j=40;
-					{
-						i=10;
-						j=20;
-					}
-				}
-				printf("i: %d\n",i);
-			}
+				i=2;
+				j=8;
 		}
-		printf("j: %d\n",j);
 	}
+	printf("i: %d\n",i);
+	printf("j: %d\n",j);
 	return 1;
 }
